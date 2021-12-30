@@ -1,0 +1,56 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #707070;
+}
+
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.card {
+  font-weight: 300;
+  line-height: 15px;
+}
+.card-title {
+  font-weight: 300;
+  color: #212529;
+}
+.card-text {
+  font-size: 15px;
+  color: #707070;
+}
+
+.card-footer p {
+  word-spacing: 20px;
+  text-align: right;
+}
+
+.precio-2 {
+  font-weight: 500;
+}
+
+.form {
+  font-weight: 300;
+}
+
+.input {
+  font-weight: 300;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding: 1rem;
+}
+
+footer p {
+  color: #707070;
+  font-weight: 300;
+}
+
+footer h5 {
+  color: #212529;
+}

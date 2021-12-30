@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Se especifica el color de fondo y las fuentes de letra a utilizar en toda la página */
+body {
+  background-color: #eaeef6;
+  font-family: "Lucida Console", "Tahoma";
+}
+
+/* Se especifica el tamaño del header, y la posición de la imagen y letra utilizada */
+.header {
+  height: 20em;
+  padding: 5em;
+  background-image: url("../imgs/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: black;
+}
+
+/* Se crea una caja blanca sobre la que se posiciona el texto */
+.box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+}
+
+/* El nombre de la página se pone en negrita y se especifica su tamaño*/
+h1 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 5em;
+}
+
+/* Se especifica el ancho de la tabla */
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+/* Se da formato a la tabla creando cajas alrededor de las imágenes y estableciendo espacios entre el borde y la tabla */
+.products td {
+  width: 50%;
+  padding: 5em;
+  background-color: rgba(217, 220, 229, 0.5);
+}
+
+/* Se alinean las imágenes en el centro y con un espacio entre recuadrados*/
+table {
+  margin: auto;
+  align-items: center;
+  border-spacing: 1em;
+}
+
+/* Se establece un tamaño para todas las imágenes */
+.products img {
+  width: 20em;
+  height: 20em;
+  border: solid 1px #ddd;
+}
+
+/* El título de cada imagen queda en negrita */
+.nombre {
+  font-weight: 1000;
+}
+
+/* Se establece un footer de color café, y se define el color y tamaño de la letra */
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    }

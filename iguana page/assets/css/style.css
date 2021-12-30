@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 22px;
+  padding: 0;
+  color:#fff;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size:60px;
+}
+
+a{
+  color:white;
+}
+
+header {
+  background-color: #000000;
+  display: block;
+  text-align: center;
+  height: 4rem;
+  opacity: 1;
+}
+
+.imagen1 img{
+  width: 100%;
+  height: 100%;
+  display:block;
+}
+
+.desc-section {
+  background: #000000;
+  height: 100%;
+  display: block;
+  font-family: "Raleway";
+  opacity: 1;
+  display: flow-root;
+  margin: 0;
+  padding:4rem 15rem 4rem 15rem;
+}
+
+.desc-section p {
+  width: 50%;
+  text-align: left;
+  font: normal normal 300 24px/26px Raleway;
+  opacity: 1;
+  float: left;
+  padding:6rem 0rem 0rem 0rem;
+}
+
+.desc-section img {
+  width: 45rem;
+  height: 30rem;
+  float: right;
+  padding-left: 10%;
+}
+
+.icons-section {
+  height: 30rem;
+  background: #1e1a13;
+  opacity: 0.98;
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+
+.icons-section h2 {
+  margin: 0;
+  font: normal normal medium 80px/87px Raleway;
+  font-size:50px;
+  text-align:center;
+  padding: 5rem;
+}
+
+.icons-section ul {
+  margin: 0;
+  padding: 1rem;
+}
+
+.icons-section li {
+  text-align: center;
+  width: 32.9%;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0;
+}
+
+.icons-section p {
+  font: normal normal 300 24px/29px Raleway;
+}
+
+.galeria {
+  height: 100%;
+  padding: 6rem 27rem 6rem 27rem;
+  background-color: #000000;
+  opacity: 0.96;
+  display: flow-root;
+  text-align:center;
+  
+}
+
+.galeria img {
+  height: 20rem;
+  width: 30rem;
+  background: transparent;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 0.2rem;
+}
+
+footer {
+  background-color: #1e1a13;
+  height: 6rem;
+  opacity: 0.94;
+}
+
+footer p {
+  padding: 2rem 4rem 2rem 4rem;
+  margin: 0;
+  text-align: center;
+  font: normal normal 300 20px/24px Raleway;
+}
+
+footer a:hover{
+  color:goldenrod;
+}
