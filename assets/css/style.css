@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #707070;
+    margin: 0;
+    padding:0;
+  }
+
+a:hover{
+    color: goldenrod;
+    }
+
