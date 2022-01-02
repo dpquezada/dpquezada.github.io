@@ -43,17 +43,16 @@ header {
 }
 
 .desc-section p {
-  width: 50%;
+  width: 40%;
   text-align: left;
   font: normal normal 300 24px/26px Raleway;
   opacity: 1;
   float: left;
-  padding:6rem 0rem 0rem 0rem;
 }
 
 .desc-section img {
-  width: 45rem;
-  height: 30rem;
+  width: 50%;
+  height: 50%;
   float: right;
   padding-left: 10%;
 }
@@ -94,24 +93,30 @@ header {
 
 .galeria {
   height: 100%;
-  padding: 6rem 27rem 6rem 27rem;
   background-color: #000000;
   opacity: 0.96;
   display: flow-root;
-  text-align:center;
+  padding:5rem;
   
 }
 
-.galeria img {
-  height: 20rem;
-  width: 30rem;
-  background: transparent;
+
+.galeria ul {
+  margin: 0;
+  padding: 1rem;
 }
 
-.column {
-  float: left;
-  width: 32%;
-  padding: 0.2rem;
+.galeria li {
+  text-align: center;
+  width: 32.9%;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0;
+}
+
+.galeria img{
+  width:25rem;
+  height:20rem;
 }
 
 footer {
