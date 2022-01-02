@@ -1,3 +1,5 @@
+/* Configuraciones generales */
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -9,6 +11,8 @@ body {
 a:hover{
     color: goldenrod;
     }
+
+/* Header */
 
 .background{
   background-image: 
@@ -28,13 +32,16 @@ font-size:80px;
 
 h5{padding:5rem 0 0 0}
 
-.container{
+header .container{
   text-align:center;
   vertical-align: middle;
   color:white;
 }
 
+/* Trabajos realizados */
+
 .card-body{color:#707070}
 
 .card-body p{
   font-weight:300}
+
